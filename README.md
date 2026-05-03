@@ -36,6 +36,15 @@ The Jupyter Notebook (`LoanPrediction.ipynb`) follows a structured Data Science 
 * **Matplotlib & Seaborn:** Data visualization.
 * **Scikit-Learn:** Machine learning algorithms, data splitting, and evaluation metrics.
 
+## 📈 Results
+The models were evaluated using accuracy scores on the test dataset. The performance of the models is as follows:
+
+* **Random Forest Classifier:** ~91.43% Accuracy 
+* **K-Nearest Neighbors (KNN):** ~88.57% Accuracy
+* **Support Vector Machine (SVM):** 80.00% Accuracy
+
+The **Random Forest Classifier** was the best-performing model, achieving high precision and recall for both loan approval and rejection categories.
+
 ## 📂 Files Included
 * `Bank_Loan.csv`: The dataset file.
 * `LoanPrediction.ipynb`: Jupyter notebook containing the complete python code and outputs.
